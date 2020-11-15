@@ -74,7 +74,8 @@ currency_two.addEventListener('change',  e => {
 
 // value of currency one is changed
 currency_one_amount.addEventListener('change', e => {
-    getCurrencies(currencyOne.value);
+    currency_one_amount.value = e.target.value;
+    getCurrencies(currency_one.value);
 })
 
 // swap button is pressed
