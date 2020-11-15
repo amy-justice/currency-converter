@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>Currency Converter</h1>
+
+        <div class='currency-one'>
+            <input type="text" id="currency-one-value" value="1">
+            <select name="currency-one" id="currency-one"></select>
+        </div>
+
+        <button class="switch-currency" id="switch-currency">
+            <i class="fas fa-retweet"></i>
+        </button>
+
+        <div class='currency-two'>
+            <input type="text" id="currency-two-value" value="0">
+            <select name="currency-two" id="currency-two"></select>
+        </div>
+
+        <div class="fixer">
+            Made using Exchange Rates API
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
